@@ -78,24 +78,6 @@
     <ClInclude Include="Detours\detours.h">
       <Filter>Library\Detours</Filter>
     </ClInclude>
-    <ClInclude Include="LuaJIT\lauxlib.h">
-      <Filter>Library\LuaJIT</Filter>
-    </ClInclude>
-    <ClInclude Include="LuaJIT\lualib.h">
-      <Filter>Library\LuaJIT</Filter>
-    </ClInclude>
-    <ClInclude Include="LuaJIT\luaconf.h">
-      <Filter>Library\LuaJIT</Filter>
-    </ClInclude>
-    <ClInclude Include="LuaJIT\lua.hpp">
-      <Filter>Library\LuaJIT</Filter>
-    </ClInclude>
-    <ClInclude Include="LuaJIT\lua.h">
-      <Filter>Library\LuaJIT</Filter>
-    </ClInclude>
-    <ClInclude Include="LuaJIT\luajit.h">
-      <Filter>Library\LuaJIT</Filter>
-    </ClInclude>
     <ClInclude Include="ImGUI\ImGuiFileDialog.h">
       <Filter>Library\ImGUI</Filter>
     </ClInclude>
@@ -104,6 +86,24 @@
     </ClInclude>
     <ClInclude Include="ImGUI\dirent.h">
       <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\luajit.h">
+      <Filter>Library\LuaJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\lualib.h">
+      <Filter>Library\LuaJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\lua.h">
+      <Filter>Library\LuaJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\lua.hpp">
+      <Filter>Library\LuaJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\luaconf.h">
+      <Filter>Library\LuaJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\lauxlib.h">
+      <Filter>Library\LuaJIT</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

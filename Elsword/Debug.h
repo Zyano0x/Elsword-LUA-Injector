@@ -40,8 +40,8 @@ namespace Base
 		Console& operator=(Console&&) = delete;
 
 		void InitializeConsole(const char* ConsoleName);
-		void printdbg(const char* Text, int Color = {}, ...);
-		void scandbg(const char* Text, ...);
+		void PrintDBG(const char* Text, int Color = {}, ...);
+		void ScanDBG(const char* Text, ...);
 		void LogEvent(std::string TEXT, bool FLAG);
 		void DestroyConsole();
 	};

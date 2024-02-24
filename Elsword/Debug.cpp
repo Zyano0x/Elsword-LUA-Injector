@@ -20,7 +20,7 @@ namespace Base
 		return;
 	}
 
-	void Console::printdbg(const char* Text, int Color, ...)
+	void Console::PrintDBG(const char* Text, int Color, ...)
 	{
 		SetConsoleTextAttribute(g_Handle, Color);
 		va_list arg;
@@ -31,7 +31,7 @@ namespace Base
 		return;
 	}
 
-	void Console::scandbg(const char* Text, ...)
+	void Console::ScanDBG(const char* Text, ...)
 	{
 		va_list arg;
 		va_start(arg, Text);
@@ -51,13 +51,13 @@ namespace Base
 			output = " [ON]\n";
 			color = g_Console->color.green;
 			append = TEXT + output;
-			printdbg(append.c_str(), color);
+			PrintDBG(append.c_str(), color);
 			break;
 		case(FALSE):
 			output = " [OFF]\n";
 			color = g_Console->color.red;
 			append = TEXT + output;
-			printdbg(append.c_str(), color);
+			PrintDBG(append.c_str(), color);
 			break;
 		}
 	}

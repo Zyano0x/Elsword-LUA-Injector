@@ -59,7 +59,6 @@ namespace Base
 	}
 
 	static int FileCount = 1;
-	static int CountLoadBuffer = 0;
 	INT HOOKCALL hkLuaLLoadBuffer(lua_State* State, const char* Buff, size_t Size, const char* Name)
 	{
 		if (g_GameData->bDUMP)
