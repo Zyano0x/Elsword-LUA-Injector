@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{c615dc09-9a3e-4225-8088-68b8e88128b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{e5b98f52-2e6b-4654-9305-f9003606ff12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\ImGUI">
+      <UniqueIdentifier>{2b3975d8-b44a-4292-9192-6057b740710d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Detours">
+      <UniqueIdentifier>{c09e01b6-31de-468d-98fc-45d5741eef73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\LuaJIT">
+      <UniqueIdentifier>{cb6ac076-5fc7-479d-b25e-986f05b9f608}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_dx9.h">
+      <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_win32.h">
+      <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Signature.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Detours\detours.h">
+      <Filter>Library\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\lauxlib.h">
+      <Filter>Library\LuaJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\lualib.h">
+      <Filter>Library\LuaJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\luaconf.h">
+      <Filter>Library\LuaJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\lua.hpp">
+      <Filter>Library\LuaJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\lua.h">
+      <Filter>Library\LuaJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaJIT\luajit.h">
+      <Filter>Library\LuaJIT</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\ImGuiFileDialog.h">
+      <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\ImGuiFileDialogConfig.h">
+      <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\dirent.h">
+      <Filter>Library\ImGUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>Library\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>Library\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_dx9.cpp">
+      <Filter>Library\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_win32.cpp">
+      <Filter>Library\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_tables.cpp">
+      <Filter>Library\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>Library\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Signature.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\ImGuiFileDialog.cpp">
+      <Filter>Library\ImGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Detours\detours.lib">
+      <Filter>Library\Detours</Filter>
+    </Library>
+    <Library Include="LuaJIT\lua51.lib">
+      <Filter>Library\LuaJIT</Filter>
+    </Library>
+    <Library Include="LuaJIT\luajit.lib">
+      <Filter>Library\LuaJIT</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
